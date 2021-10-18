@@ -1,0 +1,62 @@
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+
+main {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+}
+
+h1 {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  background: #eee;
+  width: 5rem;
+  padding: 2rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 50%;
+}
+
+.between {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.again {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.guess {
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}

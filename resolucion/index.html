@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Adivinar el Número!</title>
+  </head>
+  <body id="container">
+    <header>
+      <h1>Adivinar el Número! <span class="badge rounded-pill bg-info text-dark">(entre 1 y 20)</span></h1>
+      <button class="btn btn-danger again">Reiniciar!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn btn-success check">Probar!</button>
+      </section>
+      <section class="right">
+        <table class="table">
+          <tbody>
+            <tr>
+              <td colspan="2"><p class="message">Ingresar un numero...</p></td>
+            </tr>
+            <tr>
+              <td><p class="label-score">Score: <span class="score">20</span></p></td>
+              <td><p class="label-highscore">Highscore: <span class="highscore">0</span></p></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
